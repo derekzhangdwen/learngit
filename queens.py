@@ -15,7 +15,7 @@ def rec(x,y,board):
     global count
     if x==7:
         count=count+1
-        print('F',board)
+        print('D',board)
         return
     else:
         for i in range(8):
